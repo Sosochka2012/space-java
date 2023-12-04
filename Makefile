@@ -13,7 +13,8 @@ CLASSES = \
 	Player.java \
 	Asteroid.java \
 	Main.java \
-	Boss.java
+	Boss.java \
+	Bulletboss.java
 default: classes
 classes: $(CLASSES:.java=.class)
 
